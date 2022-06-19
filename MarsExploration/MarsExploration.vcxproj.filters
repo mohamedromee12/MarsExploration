@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DS">
+      <UniqueIdentifier>{a6396bfb-4983-42c0-a4e1-473309fc310a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{0e3e0dfb-cbce-4cca-baa2-eae77c0195df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Missions">
+      <UniqueIdentifier>{4cb9f44b-15d9-4dc0-9a90-b1e35af7fe42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rovers">
+      <UniqueIdentifier>{c1f4e3fe-d1bf-46d1-b99b-b49b065b741a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\LinkedList.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\LinkedPriorityQueue.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\LinkedQueue.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\ListADT.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\Node.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\PriorityQueueADT.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="DS\QueueADT.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="MarsStation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\CancellationEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\FormulationEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\PromotionEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Missions\EmergencyMission.h">
+      <Filter>Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="Missions\Mission.h">
+      <Filter>Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="Missions\MountainousMission.h">
+      <Filter>Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="Missions\PolarMission.h">
+      <Filter>Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="Rovers\Emergencyrovers.h">
+      <Filter>Rovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rovers\Mountainousrovers.h">
+      <Filter>Rovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rovers\Polarrovers.h">
+      <Filter>Rovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rovers\Rover.h">
+      <Filter>Rovers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MarsStation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\CancellationEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\FormulationEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\PromotionEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Missions\EmergencyMission.cpp">
+      <Filter>Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="Missions\Mission.cpp">
+      <Filter>Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="Missions\MountainousMission.cpp">
+      <Filter>Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="Missions\PolarMission.cpp">
+      <Filter>Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="Rovers\Emergencyrovers.cpp">
+      <Filter>Rovers</Filter>
+    </ClCompile>
+    <ClCompile Include="Rovers\Mountainousrovers.cpp">
+      <Filter>Rovers</Filter>
+    </ClCompile>
+    <ClCompile Include="Rovers\Polarrovers.cpp">
+      <Filter>Rovers</Filter>
+    </ClCompile>
+    <ClCompile Include="Rovers\Rover.cpp">
+      <Filter>Rovers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
